@@ -1,5 +1,5 @@
 <?php
-namespace PunktDe\Testing\Shell\Context;
+namespace PunktDe\Behat\Shell\Context;
 
 /*
  *  (c) 2017 punkt.de GmbH - Karlsruhe, Germany - http://punkt.de
@@ -8,6 +8,7 @@ namespace PunktDe\Testing\Shell\Context;
 
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
+use Neos\Utility\Files;
 use PHPUnit\Framework\Assert;
 
 /**

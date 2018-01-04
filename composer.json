@@ -1,0 +1,13 @@
+{
+    "name": "punktde/testing-shell",
+    "description": "punkt.de package for testing shell commands with behat",
+    "require": {
+        "behat/behat": "^3.4",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PunktDe\\Testing\\Shell\\": "Classes"
+        }
+    }
+}
